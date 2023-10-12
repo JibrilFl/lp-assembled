@@ -1,0 +1,34 @@
+.action {
+    padding: 148px 0 121px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__img {
+        margin-right: 88px;
+    }
+
+    &__info {
+        color: $white;
+        text-align: left;
+    }
+
+    &__info_title {
+        font-family: 'Roboto', 'sans-serif';
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 53.2px;
+        margin-bottom: 22px;
+        width: 339px;
+    }
+
+    &__info_descr {
+        width: 285px;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25.2px;
+        color: $grey;
+    }
+}

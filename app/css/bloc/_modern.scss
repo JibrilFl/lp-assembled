@@ -1,0 +1,86 @@
+.modern {
+    padding: 40px 0 50px;
+
+    &__inner {
+        position: relative;
+        margin: 0 auto;
+        width: 1000px;
+        height: 496px;
+    }
+
+    &__support {
+        position: relative;
+        margin: 0 auto;
+        width: 1000px;
+        height: 496px;
+        background-color: $green;
+        border: 2px solid $black;
+        box-shadow: 0 4px 0 0 $black;
+        text-align: center;
+        z-index: 5;
+    }
+
+    &__box1 {
+        position: absolute;
+        width: 733px;
+        height: 544px;
+        border: 2px solid $black;
+        background-color: $green_light;
+        top: -34px;
+        left: -56px;
+    }
+
+    &__box2 {
+        position: absolute;
+        width: 717px;
+        height: 520px;
+        background-color: $green_dark;
+        border: 2px solid $black;
+        top: 10px;
+        right: -59px;
+    }
+
+    &__title {
+        font-family: 'Roboto', sans-serif;
+        font-size: 66px;
+        font-weight: 400;
+        line-height: 71.4px;
+        color: $black;
+        width: 672px;
+        margin: 0 auto;
+        margin-top: 97px;
+    }
+
+    &__descr {
+        margin-top: 30px;
+        color: $black;
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 31.5px;
+    }
+
+    &__btn {
+        margin-top: 20px;
+        border-radius: 60px;
+        border: 2px solid $black;
+        box-shadow: 0 4px 0 0 $black;
+        width: 211px;
+        height: 66px;
+        background-color: $green_light;
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    &__company {
+        margin-top: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__company_img:not(:last-child) {
+        margin-right: 69px;
+    }
+}

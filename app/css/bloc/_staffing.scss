@@ -1,0 +1,114 @@
+.staffing {
+    padding: 164px 0 76px;
+
+    &__right {
+        padding: 114px 0 122px;
+        width: 1000px;
+        height: 413px;
+        background-color: $green;
+        color: $black;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    &__right_title {
+        font-family: 'Roboto', 'sans-serif';
+        font-size: 66px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 79.8px;
+        margin-bottom: 31px;
+    }
+
+    &__right_btn {
+        width: 211px;
+        height: 66px;
+        border: 2px solid $black;
+        padding: 17px 32px 25px 31px;
+        border-radius: 60px;
+        box-shadow: 0 4px 0 0 $black;
+        background-color: $green_light;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    &__inner {
+        width: 970px;
+        height: 359px;
+        background-color: $blue;
+        padding: 75px 80px 90px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__info {
+        width: 290px;
+        text-align: left;
+    }
+
+    &__info_title {
+        font-family: 'Roboto', 'sans-serif';
+        font-size: 52px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 53.2px;
+        margin-bottom: 35px;
+    }
+
+    &__info_descr {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    &__form {
+        align-self: flex-end;
+        width: 422px;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    &__form_input {
+        width: 100%;
+        height: 38px;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25.2px;
+        border: none;
+        border-bottom: 2px solid $black;
+        background-color: inherit;
+        outline: none;
+    }
+
+    &__form_input::placeholder {
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25.2px;
+        opacity: .29;
+        color: $black;
+    }
+
+    &__form_btn {
+        width: 127px;
+        height: 48px;
+        background-color: inherit;
+        border-radius: 30px;
+        border: 2px solid $black;
+        box-shadow: 0 2px 0 0 $black;
+        padding: 8px;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25.2px;
+        margin-left: 20px;
+        flex-shrink: 0;
+        cursor: pointer;
+    }
+}

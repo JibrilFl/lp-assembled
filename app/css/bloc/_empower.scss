@@ -1,0 +1,137 @@
+.empower {
+    padding: 78px 0 22px;
+    text-align: center;
+    color: $white;
+
+    &__title {
+        font-family: 'Roboto', 'sans-serif';
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 53.2px;
+        margin-bottom: 16px;
+    }
+
+    &__descr {
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25.2px;
+        color: $grey;
+        width: 579px;
+        margin: 0 auto;
+        margin-bottom: 22px;
+    }
+
+    &__items {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 74px;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    &__item:first-child {
+        margin-right: 28px;
+    }
+
+    &__item_title {
+        position: relative;
+        padding-left: 46px;
+        margin-bottom: 25px;
+    }
+
+    &__item:nth-child(1) .empower__item_title:after,
+    &__item:nth-child(2) .empower__item_title:after {
+        content: '';
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+    }
+
+    &__item:nth-child(1) .empower__item_title:after {
+        background-image: url("../img/icons/calendar_icon.png");
+    }
+
+    &__item:nth-child(2) .empower__item_title:after {
+        background-image: url("../img/icons/slack_icon.png");
+    }
+
+    &__subtitle {
+        font-family: 'Roboto', 'sans-serif';
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 53.2px;
+        margin-bottom: 70px;
+    }
+
+    &__options {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    &__option {
+        position: relative;
+        width: 300px;
+        text-align: left;
+    }
+
+    &__option:not(:last-child) {
+        margin-right: 80px;
+    }
+
+    &__option:before {
+        content: '';
+        position: absolute;
+        width: 10px;
+        height: 4px;
+        background-color: $green_dark;
+        left: 0;
+        transform: rotate(45deg);
+        top: -18px;
+    }
+
+    &__option:after {
+        content: '';
+        position: absolute;
+        width: 13px;
+        height: 4px;
+        background-color: $green_dark;
+        left: 4px;
+        top: -20px;
+        transform: rotate(130deg);
+    }
+
+    &__option_title {
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25.2px;
+        margin-bottom: 9px;
+    }
+
+    &__option_descr {
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25.2px;
+        color: $grey;
+    }
+
+    &__option_descr a {
+        color: $green;
+        text-decoration: underline $green;
+    }
+}

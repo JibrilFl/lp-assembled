@@ -15,7 +15,7 @@ function browsersync() {
 		server: { baseDir: 'dist/' }, // Указываем папку сервера
 		notify: false, // Отключаем уведомления
 		online: true, // Режим работы: true или false
-		port: 8000
+		port: 8001
 	})
 };
 

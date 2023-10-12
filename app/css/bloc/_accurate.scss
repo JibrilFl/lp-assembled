@@ -1,0 +1,43 @@
+.accurate {
+    padding: 50px 0 134px;
+
+    &__link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $green_light;
+        font-size: 21px;
+        font-weight: 700;
+        margin-bottom: 130px;
+    }
+
+    &__inner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__info {
+        color: $white;
+        text-align: left;
+        width: 306px;
+        margin-right: 101px;
+    }
+
+    &__info_title {
+        font-family: 'Roboto', sans-serif;
+        font-size: 43px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 53.2px;
+        margin-bottom: 21px;
+    }
+
+    &__info_descr {
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25.2px;
+        color: $grey;
+    }
+}

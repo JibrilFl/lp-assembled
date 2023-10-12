@@ -1,5 +1,7 @@
 body {
     font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    background-color: $black;
 }
 
 // font-family: 'IBM Plex Sans', sans-serif;
@@ -56,6 +58,8 @@ body {
     div,
     div::before,
     div::after {
-        background-color: $green;
+        background-color: $green-light;
     }
+
+    margin-left: 16px;
 }

@@ -9,13 +9,66 @@
 
     &__sup_text {
         margin-right: 10px;
+        font-size: 14px;
     }
 
     &__inner {
-        background-color: $black;
         display: flex;
         align-items: center;
         justify-content: center;
         padding: 16px 0;
+        background-color: #0e1220;
+    }
+
+    &__logo {
+        margin-right: 221px;
+    }
+
+    &__btn {
+        color: $green;
+        padding: 8px 46px;
+        background-color: inherit;
+        border: 2px solid $green;
+        border-radius: 30px;
+        width: 140px;
+        height: 40px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+
+        cursor: pointer;
+    }
+
+    &__btn_singIn {
+        margin-right: 14px;
+    }
+
+    &__btn_demo {
+        padding: 8px 20px;
+        background-color: $green_light;
+        color: $black;
+        border: none;
+    }
+}
+
+.nav {
+    margin-right: 26px;
+
+    &__link {
+        color: $white;
+        font-size: 14px;
+        font-weight: 400;
+
+        transition: color .5s;
+    }
+
+    &__link:not(:last-child) {
+        margin-right: 42px;
+    }
+
+    &__link:hover {
+        color: $green;
     }
 }
